@@ -4,7 +4,7 @@ An end-to-end Machine Learning pipeline utilizing **LightGBM** and **SHAP (Shapl
 
 In highly regulated environments like banking and mortgage lending, black-box AI models are unusable due to compliance frameworks (such as the EU AI Act and UK credit risk guidelines). This project demonstrates how to achieve state-of-the-art predictive accuracy while generating auditable, clear decision paths for risk officers and underwriters.
 
-## 🚀 Key Features
+## Key Features
 * **Real-World Tabular Classification:** Uses the UCI Taiwanese Bankruptcy dataset (6,819 companies, 95 financial metrics) to predict risk.
 * **Imbalanced Data Optimization:** Implements customized objective weights (`scale_pos_weight`) to accurately capture rare but critical default events.
 * **Global Interpretability:** Maps out the macro-level financial drivers that the model uses to determine creditworthiness across the entire portfolio.
@@ -12,7 +12,7 @@ In highly regulated environments like banking and mortgage lending, black-box AI
 
 ---
 
-## 📊 Model & Explainability Visualizations
+## Model & Explainability Visualizations
 
 ### 1. Global Risk Drivers
 The model automatically ranks financial indicators by their structural impact on credit decisions. Look at your generated `global_credit_risk_drivers.png` file to see the top macroscopic risk patterns.
